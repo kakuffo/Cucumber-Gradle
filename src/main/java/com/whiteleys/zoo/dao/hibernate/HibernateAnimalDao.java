@@ -2,15 +2,21 @@ package com.whiteleys.zoo.dao.hibernate;
 
 import com.whiteleys.zoo.dao.AnimalDao;
 import com.whiteleys.zoo.domain.Animal;
-import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+import org.hibernate.SessionFactory;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-public class HibernateAnimalDao extends HibernateDaoSupport implements AnimalDao {
+public class HibernateAnimalDao implements AnimalDao {
 
+    private SessionFactory sessionFactory;
 
-    @SuppressWarnings("unchecked")
+    @Transactional(readOnly = true)
     public List<Animal> findAll() {
-        return getHibernateTemplate().loadAll(Animal.class);
+        return sessionFactory.getCurrentSession().createCriteria(Animal.class).list();
+    }
+
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
     }
 }

@@ -71,7 +71,7 @@ public class SecurityFilter extends OncePerRequestFilter {
      */
     @Required
     public void setExemptUrls(Set<String> exemptUrls) {
-        this.exemptUrls = ImmutableSet.of(exemptUrls.toArray(new String[exemptUrls.size()]));
+        this.exemptUrls = ImmutableSet.copyOf(exemptUrls.toArray(new String[exemptUrls.size()]));
     }
 
 }

@@ -21,7 +21,7 @@ Site Features
 
 What we've given you...
 =================
-* We've provided the skeleton code and a Maven build file that will download all the required libraries, build, package and deploy your application to Jetty for testing.
+* We've provided the skeleton code and a Gradle build file that will download all the required libraries, build, package and deploy your application to Jetty for testing.
 
 
 Some of the things we're looking for...
@@ -43,14 +43,14 @@ What you must deliver
 
 Prerequisites
 ========
-* An internet connection so Maven can download all the 3rd party libraries
-* Java 1.6
-* Maven 2.0.9 
+* An internet connection so Gradle can download all the 3rd party libraries
+* Java 1.7
+* Gradle 1.10
 
 
 How to build and deploy
 ================
-Navigate to the folder with pom.xml and run 
-> mvn clean install jetty:run
+Navigate to the folder with build.gradle and run
+> gradle jettyRun
 
 Then hit http://localhost:8080/whiteley-zoo
