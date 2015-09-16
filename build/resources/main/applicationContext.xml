@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- read properties from a properties file -->
+    <context:property-placeholder location="classpath:zoo.properties"/>
+
+    <context:annotation-config/>
+    <context:component-scan base-package="com.whiteleys.zoo.web.controller"/>
+
+    <jdbc:embedded-database id="dataSource">
+        <jdbc:script location="classpath:zoodb.script"/>
+    </jdbc:embedded-database>
+
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="com.whiteleys.zoo.domain"/>
+        <property name="hibernateProperties">
+            <props>
+               <prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>
+               <prop key="hibernate.hbm2ddl.auto">update</prop>
+               <prop key="show_sql">true</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="transactionManager"
+          class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <tx:annotation-driven/>
+
+    <!-- data access objects -->
+    <bean id="userDao" class="com.whiteleys.zoo.dao.hibernate.HibernateUserDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="animalDao" class="com.whiteleys.zoo.dao.hibernate.HibernateAnimalDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <!-- services  -->
+    <bean id="animalService" class="com.whiteleys.zoo.service.support.AnimalServiceImpl"/>
+    <bean id="userService" class="com.whiteleys.zoo.service.support.UserServiceImpl"/>
+
+    <!-- servlet filters (must be in the root application context - hence in this file) -->
+    <bean id="securityFilter" class="com.whiteleys.zoo.web.filter.SecurityFilter">
+        <property name="exemptUrls">
+            <set>
+                <value>/whiteley-zoo/login.html</value>
+                <value>/whiteley-zoo/register.html</value>
+            </set>
+        </property>
+    </bean>
+
+</beans>

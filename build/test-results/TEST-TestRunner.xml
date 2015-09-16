@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Kwames-MBP.default" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Add to Cart
+  This feature will test functionality of adding different products to the User basket from different flow
+
+  Scenario: Search a product and add the first result/product to the User basket ?[90m# test.feature:4?[0m
+    ?[33mGiven ?[0m?[33mUser searched for Lenovo Laptop?[0m
+    ?[33mWhen ?[0m?[33mAdd the first laptop that appears in the search result to the basket?[0m
+    ?[33mThen ?[0m?[33mUser basket should display with 1?[0m
+
+1 Scenarios (?[33m1 undefined?[0m)
+3 Steps (?[33m3 undefined?[0m)
+0m0.000s
+
+
+You can implement missing steps with the snippets below:
+
+@Given("^User searched for Lenovo Laptop$")
+public void user_searched_for_Lenovo_Laptop() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^Add the first laptop that appears in the search result to the basket$")
+public void add_the_first_laptop_that_appears_in_the_search_result_to_the_basket() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^User basket should display with (\\d+)$")
+public void user_basket_should_display_with(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
