@@ -25,9 +25,9 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e0bdd63-f4c5-40fb-abc0-52099c00734c" name="Default" comment="added new steps updated&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature" afterPath="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature" />
+    <list default="true" id="4e0bdd63-f4c5-40fb-abc0-52099c00734c" name="Default" comment="added more steps">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/WebDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/steps/RegistrationSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/steps/RegistrationSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zoo.iws" />
@@ -105,49 +105,7 @@
     <favorites_list name="zoo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.135255">
-              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/steps/RegistrationSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -428,9 +386,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/test.feature" />
         <option value="$PROJECT_DIR$/whiteleysGherkin.md" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/steps/RegistrationSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/steps/RegistrationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebDriver.java" />
       </list>
     </option>
   </component>
@@ -927,7 +886,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442494712105</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added more steps">
+      <created>1442495295506</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1442495295506</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -987,7 +952,8 @@
     <MESSAGE value="added new steps&#10;" />
     <MESSAGE value="Scenario: User cannot register without valid data in all fields." />
     <MESSAGE value="added new steps updated&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new steps updated&#10;" />
+    <MESSAGE value="added more steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more steps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1298,21 +1264,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/steps/RegistrationSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34375">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/steps/RegistrationSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.59375">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

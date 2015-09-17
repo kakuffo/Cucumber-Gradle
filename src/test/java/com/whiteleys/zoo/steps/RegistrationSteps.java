@@ -28,6 +28,7 @@ public class RegistrationSteps {
     @Then("^User is forwarded to home\\.html view/page$")
     public void user_is_forwarded_to_home_html_view_page() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+
         throw new PendingException();
 
     }
