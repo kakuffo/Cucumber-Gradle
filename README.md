@@ -75,3 +75,8 @@ Navigate to the folder with build.gradle and run
 > gradle jettyRun
 
 Then hit http://localhost:8080/whiteley-zoo
+
+
+Auto Generated steps
+================
+
