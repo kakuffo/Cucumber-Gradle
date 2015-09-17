@@ -6,7 +6,6 @@ Feature: User registration and login validation.
     When  User press the Register button
     Then  User is forwarded to home.html view/page
 
-
   Scenario: User cannot register without valid data in all fields.
     Given User has left all the fields empty
     When User press the Registration button
