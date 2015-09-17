@@ -25,7 +25,20 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e0bdd63-f4c5-40fb-abc0-52099c00734c" name="Default" comment="pushing test results">
+    <list default="true" id="4e0bdd63-f4c5-40fb-abc0-52099c00734c" name="Default" comment="added steps folder under test">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.3/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.3/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature" afterPath="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-TestRunner.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-TestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/TestRunner.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/TestRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/packages/default-package.html" afterPath="$PROJECT_DIR$/build/reports/tests/packages/default-package.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber/report.js" afterPath="$PROJECT_DIR$/target/cucumber/report.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zoo.iws" />
@@ -110,8 +123,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6896552">
-              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.2413793">
+              <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -120,16 +133,6 @@
           </provider>
           <provider editor-type-id="MultiMarkdownFxHtmlEditor">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -415,6 +418,8 @@
         <option value="$PROJECT_DIR$/whiteleysGherkin.md" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/steps/RegistrationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature" />
       </list>
     </option>
   </component>
@@ -538,6 +543,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whiteleys-zoo-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -889,7 +928,31 @@
       <option name="project" value="LOCAL" />
       <updated>1442491230322</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added steps folder under test">
+      <created>1442492385228</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1442492385228</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added User can register without errors with valid data in all fields.">
+      <created>1442493125357</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1442493125357</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added RegistrationSteps class without import">
+      <created>1442493558453</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1442493558453</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added all import cucumber.api.java.en.*">
+      <created>1442493643963</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1442493643963</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -942,7 +1005,11 @@
     <MESSAGE value="refactored to Registration.feature" />
     <MESSAGE value="pushing test results" />
     <MESSAGE value="Auto Generated steps&#10;================" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auto Generated steps&#10;================" />
+    <MESSAGE value="added steps folder under test" />
+    <MESSAGE value="added User can register without errors with valid data in all fields." />
+    <MESSAGE value="added RegistrationSteps class without import" />
+    <MESSAGE value="added all import cucumber.api.java.en.*" />
+    <option name="LAST_COMMIT_MESSAGE" value="added all import cucumber.api.java.en.*" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1253,10 +1320,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/steps/RegistrationSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/whiteleys/zoo/features/Registration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25862068">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1266,8 +1343,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6896552">
-          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.2413793">
+          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
           <folding />
         </state>
       </provider>
