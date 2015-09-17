@@ -3,7 +3,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-class WebDriverTest {
+
+class WebDriverTest1 {
 
     private static org.openqa.selenium.WebDriver driver = null;
 

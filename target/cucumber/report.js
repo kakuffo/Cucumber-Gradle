@@ -40,7 +40,7 @@ formatter.match({
   "location": "RegistrationSteps.user_has_entered_valid_data_for_all_fields()"
 });
 formatter.result({
-  "duration": 136503739,
+  "duration": 146551373,
   "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_has_entered_valid_data_for_all_fields(RegistrationSteps.java:19)\n\tat ✽.Given User has entered valid data for all fields(Registration.feature:5)\n",
   "status": "pending"
 });
@@ -86,16 +86,24 @@ formatter.step({
   "name": "User is should validation error for all fields.",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "RegistrationSteps.user_has_left_all_the_fields_empty()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 502468,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_has_left_all_the_fields_empty(RegistrationSteps.java:40)\n\tat ✽.Given User has left all the fields empty(Registration.feature:10)\n",
+  "status": "pending"
 });
-formatter.match({});
+formatter.match({
+  "location": "RegistrationSteps.user_press_the_Registration_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "RegistrationSteps.user_is_should_validation_error_for_all_fields()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });

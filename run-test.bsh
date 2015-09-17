@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gradle jettyRun
+
+gradle test --debug
