@@ -32,4 +32,23 @@ public class RegistrationSteps {
 
     }
 
+    @Given("^User has left all the fields empty$")
+    public void user_has_left_all_the_fields_empty() throws Throwable {
+
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @When("^User press the Registration button$")
+    public void user_press_the_Registration_button() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^User is should validation error for all fields\\.$")
+    public void user_is_should_validation_error_for_all_fields() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
 }

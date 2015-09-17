@@ -40,7 +40,7 @@ formatter.match({
   "location": "RegistrationSteps.user_has_entered_valid_data_for_all_fields()"
 });
 formatter.result({
-  "duration": 183164494,
+  "duration": 136503739,
   "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_has_entered_valid_data_for_all_fields(RegistrationSteps.java:19)\n\tat ✽.Given User has entered valid data for all fields(Registration.feature:5)\n",
   "status": "pending"
 });
@@ -64,7 +64,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.scenario({
-  "line": 10,
+  "line": 9,
   "name": "User cannot register without valid data in all fields.",
   "description": "",
   "id": "user-registration-and-login-validation.;user-cannot-register-without-valid-data-in-all-fields.",
@@ -72,17 +72,17 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "User has left all the fields empty",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "User press the Registration button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 13,
+  "line": 12,
   "name": "User is should validation error for all fields.",
   "keyword": "Then "
 });
