@@ -1,4 +1,25 @@
-You have joined a team commissioned by Whiteley's Zoo to create their new website.  Building and improving on the source code provided, we'd like you to showcase an initial release developed to meet the following requirements:
+You have joined a team commissioned by Whiteley's Zoo to create their new website.  
+Building and improving on the source code provided, we'd like you to showcase an initial release 
+developed to meet the following requirements:
+
+
+Test Instructions:
+
+Access the test click on the dropbox link provided. Download the zip file which contains a java project folder that 
+includes a readme file. In the readme file there is a description of some features for a developer to implement. 
+Your task is to 
+
+1. implement a set of runnable test in cucumber gherkin script with associated step definitions and code 
+to verify the results. 
+
+2. These should be design to fail until run against the developers implementation.
+ 
+The project is written in java and is backed by gradle. The webapp runs by executing the  
+JettyRun command (how to do this is described in the readme file) and is accessible using a browser 
+http://localhost:8080/whiteley-zoo
+Dropbox link: https://www.dropbox.com/s/vkjs80vyobo8le8/whiteleys-zoo-java.tar?dl=0
+Add the runnable tests to the project and return it in your reply, providing some instructions on how the tests are run.
+
 
 Site Features
 =============
