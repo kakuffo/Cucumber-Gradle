@@ -1,3 +1,5 @@
+package com.whiteleys.zoo.steps;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
