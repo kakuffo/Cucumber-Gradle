@@ -1,7 +1,7 @@
-Feature: Add to Cart
-  This feature will test functionality of adding different products to the User basket from different flow
-  Background: User is Logged In
-  Scenario: Search a product and add the first result/product to the User basket
-    Given User searched for Lenovo Laptop
-    When Add the first laptop that appears in the search result to the basket
-    Then User basket should display with 1
+Feature: User registration and login validation.
+  Validate the registration and login view/page for mandatory user details required on registration.
+  Background: whiteley-zoo is running and user is on register.html view/page
+  Scenario: User can register without errors with valid data in all fields.
+    Given User has entered valid data for all fields
+    When  User press the Register button
+    Then  User is forwarded to home.html view/page
