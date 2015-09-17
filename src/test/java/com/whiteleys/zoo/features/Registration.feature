@@ -10,3 +10,5 @@ Feature: User registration and login validation.
     Given User has left all the fields empty
     When User press the Registration button
     Then User is should validation error for all fields.
+
+  Scenario:
