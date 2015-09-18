@@ -67,4 +67,52 @@ public class RegistrationSteps {
         throw new PendingException();
     }
 
+
+    //You can implement missing steps with the snippets below:
+
+    @Given("^User is on the register view/page$")
+    public void user_is_on_the_register_view_page() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get("hhttp://localhost:8080/whiteley-zoo/register.html");
+        throw new PendingException();
+    }
+
+    @Then("^User is shown the mandatory Username field$")
+    public void user_is_shown_the_mandatory_Username_field() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^User is shown the mandatory Password field$")
+    public void user_is_shown_the_mandatory_Password_field() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^User is shown the mandatory Retype password field$")
+    public void user_is_shown_the_mandatory_Retype_password_field() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^User is shown the mandatory Sex select button$")
+    public void user_is_shown_the_mandatory_Sex_select_button() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^User is shown the mandatory Date of birth dropdown list$")
+    public void user_is_shown_the_mandatory_Date_of_birth_dropdown_list() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^User is shown the mandatory Postcode field$")
+    public void user_is_shown_the_mandatory_Postcode_field() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+
 }
