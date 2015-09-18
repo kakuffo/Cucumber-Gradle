@@ -40,8 +40,8 @@ formatter.match({
   "location": "RegistrationSteps.user_has_entered_valid_data_for_all_fields()"
 });
 formatter.result({
-  "duration": 8648540411,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_has_entered_valid_data_for_all_fields(RegistrationSteps.java:40)\n\tat ✽.Given User has entered valid data for all fields(Registration.feature:5)\n",
+  "duration": 3864986652,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_has_entered_valid_data_for_all_fields(RegistrationSteps.java:29)\n\tat ✽.Given User has entered valid data for all fields(Registration.feature:5)\n",
   "status": "pending"
 });
 formatter.match({
@@ -90,8 +90,8 @@ formatter.match({
   "location": "RegistrationSteps.user_has_left_all_the_fields_empty()"
 });
 formatter.result({
-  "duration": 291899,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_has_left_all_the_fields_empty(RegistrationSteps.java:61)\n\tat ✽.Given User has left all the fields empty(Registration.feature:10)\n",
+  "duration": 338757,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_has_left_all_the_fields_empty(RegistrationSteps.java:50)\n\tat ✽.Given User has left all the fields empty(Registration.feature:10)\n",
   "status": "pending"
 });
 formatter.match({
@@ -105,20 +105,5 @@ formatter.match({
 });
 formatter.result({
   "status": "skipped"
-});
-formatter.background({
-  "line": 3,
-  "name": "whiteley-zoo is running and user is on register.html view/page",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.scenario({
-  "line": 14,
-  "name": "",
-  "description": "",
-  "id": "user-registration-and-login-validation.;",
-  "type": "scenario",
-  "keyword": "Scenario"
 });
 });
