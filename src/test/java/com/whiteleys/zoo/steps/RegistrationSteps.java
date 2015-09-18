@@ -152,6 +152,7 @@ public class RegistrationSteps {
         // Write code here that turns the phrase above into concrete actions
         // throw new PendingException();
         Assert.assertTrue(driver.getCurrentUrl() == "http://localhost:8080/whiteley-zoo/register.html");
+        Assert.assertTrue(Register.registerVisible(driver));
     }
 
     @Then("^User is shown error messages for requred fields$")
