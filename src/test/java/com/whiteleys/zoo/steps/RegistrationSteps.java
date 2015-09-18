@@ -1,29 +1,25 @@
 package com.whiteleys.zoo.steps;
 
 
+import com.whiteleys.zoo.deivers.Drivers;
+import com.whiteleys.zoo.pageobjects.Home;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by kakuffo on 17/09/15.
  */
-public class RegistrationSteps {
+public class RegistrationSteps extends Home {
     private static org.openqa.selenium.WebDriver driver = null;
 
+    Drivers myDriver = new Drivers();
 
     @Given("^User has entered valid data for all fields$")
     public void user_has_entered_valid_data_for_all_fields() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("http://localhost:8080/whiteley-zoo/login.html");
-
-
+        myDriver.getDriver();
         // driver.quit();
         throw new PendingException();
     }
