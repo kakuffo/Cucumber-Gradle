@@ -67,4 +67,12 @@ public class Register {
 
     }
 
+    public static boolean getLogin(WebDriver driver) {
+
+        boolean loginDisplayed = backtologin(driver).isDisplayed();
+
+        return loginDisplayed;
+
+    }
+
 }

@@ -2,10 +2,12 @@ package com.whiteleys.zoo.steps;
 
 
 import com.whiteleys.zoo.pageobjects.Home;
+import com.whiteleys.zoo.pageobjects.Register;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -14,17 +16,16 @@ import java.util.concurrent.TimeUnit;
  * Created by kakuffo on 17/09/15.
  */
 public class RegistrationSteps {
-    private static org.openqa.selenium.WebDriver driver = null;
+    private static org.openqa.selenium.WebDriver driver = new FirefoxDriver();
 
 
     @Given("^User has entered valid data for all fields$")
     public void user_has_entered_valid_data_for_all_fields() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://localhost:8080/whiteley-zoo/login.html");
-        Home.userNameField(driver).sendKeys("EEEE");
-        Home.pswField(driver).sendKeys("RRRRR");
+        Home.setUserName(driver, "kwame");
+        Home.setPassword(driver, "password");
 
         throw new PendingException();
     }
@@ -32,21 +33,23 @@ public class RegistrationSteps {
     @When("^User press the Register button$")
     public void user_press_the_Register_button() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        Home.submittButton(driver).click();
+        Home.clickRegister(driver);
         throw new PendingException();
     }
 
     @Then("^User is forwarded to home\\.html view/page$")
     public void user_is_forwarded_to_home_html_view_page() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-
+        Assert.assertTrue(Home.getPageUrl(driver).contains("home.html"));
+        Home.quit(driver);
         throw new PendingException();
 
     }
 
     @Given("^User has left all the fields empty$")
     public void user_has_left_all_the_fields_empty() throws Throwable {
-
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get("http://localhost:8080/whiteley-zoo/register.html");
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
     }
@@ -54,6 +57,7 @@ public class RegistrationSteps {
     @When("^User press the Registration button$")
     public void user_press_the_Registration_button() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+        Register.registerButtone(driver);
         throw new PendingException();
     }
 

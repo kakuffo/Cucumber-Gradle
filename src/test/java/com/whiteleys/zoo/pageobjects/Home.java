@@ -32,5 +32,41 @@ public class Home {
         return element;
     }
 
+    public static String getPageUrl(WebDriver driver) {
+
+        String pageUr = driver.getCurrentUrl();
+        return pageUr;
+    }
+
+    public static String getTitle(WebDriver driver) {
+
+        String title = driver.getTitle();
+        return title;
+
+    }
+
+    public static String getSource(WebDriver driver) {
+
+        String source = driver.getPageSource();
+        return source;
+    }
+
+    public static void setUserName(WebDriver driver, CharSequence userName) {
+        userNameField(driver).sendKeys(userName);
+    }
+
+    public static void setPassword(WebDriver driver, CharSequence psw) {
+        pswField(driver).sendKeys(psw);
+    }
+
+    public static void clickRegister(WebDriver driver) {
+        submittButton(driver).click();
+    }
+
+    public static void quit(WebDriver driver) {
+
+        driver.quit();
+    }
+
 
 }
