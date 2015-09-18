@@ -1,8 +1,3 @@
-You have joined a team commissioned by Whiteley's Zoo to create their new website.  
-Building and improving on the source code provided, we'd like you to showcase an initial release 
-developed to meet the following requirements:
-
-
 Test Instructions:
 
 Access the test click on the dropbox link provided. Download the zip file which contains a java project folder that 
@@ -21,24 +16,9 @@ Dropbox link: https://www.dropbox.com/s/vkjs80vyobo8le8/whiteleys-zoo-java.tar?d
 Add the runnable tests to the project and return it in your reply, providing some instructions on how the tests are run.
 
 
-Site Features
+Cucumber & Gradle Automation Frame-Work
 =============
-1) Basic user registration and login.   
 
-  GOAL: The core logic is in place, but you need to add validation and map the "Sex" User property to the database.
-
-  Mandatory user details required on registration:
-  - Username (unique across all users)
-  - Password
-  - Sex
-  - Date of Birth
-  - UK Post Code
-
-2) Ability to select, save and subsequently modify a logged-in user's collection of favourite animals.   
-
-   GOAL: Introduce the association between a user and their favourite animals and ensure this feature works as expected.
-
-   The pages have been designed and the skeleton User and Animal concepts have been implemented, but the ability to associate favourite animals to users has not been considered yet.
 
 What we've given you...
 =================

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CUCUMBER FRAME-WORK.iml" filepath="$PROJECT_DIR$/CUCUMBER FRAME-WORK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KWAME AKUFFO.iml" filepath="$PROJECT_DIR$/KWAME AKUFFO.iml" />
       <module fileurl="file://$PROJECT_DIR$/zoo.iml" filepath="$PROJECT_DIR$/zoo.iml" />
     </modules>
   </component>
