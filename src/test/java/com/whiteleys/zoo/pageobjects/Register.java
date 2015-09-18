@@ -61,6 +61,18 @@ public class Register {
         return element;
     }
 
+    public static void clicRegister(WebDriver driver) {
+
+        registerButtone(driver).click();
+
+    }
+
+    public static boolean registerVisible(WebDriver driver) {
+
+        boolean registerIsVisible = registerButtone(driver).isDisplayed();
+        return registerIsVisible;
+
+    }
     public static WebElement backtologin(WebDriver driver) {
         element = driver.findElement(By.linkText("Back to login"));
         return element;
