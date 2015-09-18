@@ -2,6 +2,7 @@ package com.whiteleys.zoo.steps;
 
 import com.whiteleys.zoo.pageobjects.Home;
 import com.whiteleys.zoo.pageobjects.Register;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -128,6 +129,32 @@ public class RegistrationSteps {
 
         Assert.assertTrue(Register.getpostCode(driver));
         //throw new Throwable();
+    }
+
+    // You can implement missing steps with the snippets below:
+
+    @Given("^User has not entered any data into any field$")
+    public void user_has_not_entered_any_data_into_any_field() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+    }
+
+    @When("^User clicks Register$")
+    public void user_clicks_Register() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^User is not taken to New User view/page$")
+    public void user_is_not_taken_to_New_User_view_page() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        // throw new PendingException();
+    }
+
+    @Then("^User is shown error messages for requred fields$")
+    public void user_is_shown_error_messages_for_requred_fields() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //  throw new PendingException();
     }
 
 

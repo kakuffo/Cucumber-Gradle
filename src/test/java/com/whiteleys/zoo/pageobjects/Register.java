@@ -117,4 +117,6 @@ public class Register {
         boolean userNameFieldDisplayed = userNameField(driver).isDisplayed();
         return userNameFieldDisplayed;
     }
+
+
 }

@@ -19,3 +19,11 @@ Feature: User registration and login validation.
     Then User is shown the mandatory Sex select button
     Then User is shown the mandatory Date of birth dropdown list
     Then User is shown the mandatory Postcode field
+
+
+  Scenario: User Should be shown erro messages when required fields are empty
+    Given User has not entered any data into any field
+    When User clicks Register
+    Then User is not taken to New User view/page
+    Then User is shown error messages for requred fields
+

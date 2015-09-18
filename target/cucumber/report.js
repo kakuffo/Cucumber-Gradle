@@ -40,21 +40,23 @@ formatter.match({
   "location": "RegistrationSteps.user_has_entered_valid_data_for_all_fields()"
 });
 formatter.result({
-  "duration": 3259771357,
-  "error_message": "java.lang.Throwable\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_has_entered_valid_data_for_all_fields(RegistrationSteps.java:28)\n\tat ✽.Given User has entered valid data for all fields(Registration.feature:5)\n",
-  "status": "failed"
+  "duration": 3451335211,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_press_the_Register_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 843118525,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_forwarded_to_home_html_view_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 14176411,
+  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_is_forwarded_to_home_html_view_page(RegistrationSteps.java:41)\n\tat ✽.Then User is forwarded to home.html view/page(Registration.feature:7)\n",
+  "status": "failed"
 });
 formatter.background({
   "line": 3,
@@ -90,21 +92,22 @@ formatter.match({
   "location": "RegistrationSteps.user_has_left_all_the_fields_empty()"
 });
 formatter.result({
-  "duration": 86736279,
-  "error_message": "java.lang.Throwable\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_has_left_all_the_fields_empty(RegistrationSteps.java:53)\n\tat ✽.Given User has left all the fields empty(Registration.feature:10)\n",
-  "status": "failed"
+  "duration": 114850286,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_press_the_Registration_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 10540989,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_should_validation_error_for_all_fields()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 27864,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -160,44 +163,49 @@ formatter.match({
   "location": "RegistrationSteps.user_is_on_the_register_view_page()"
 });
 formatter.result({
-  "duration": 61608763,
-  "error_message": "java.lang.Throwable\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_is_on_the_register_view_page(RegistrationSteps.java:77)\n\tat ✽.Given User is on the register view/page(Registration.feature:15)\n",
-  "status": "failed"
+  "duration": 83534655,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Username_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 22683450,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Password_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 23614478,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Retype_password_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 32949,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Sex_select_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 43241193,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Date_of_birth_dropdown_list()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 62404181,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Postcode_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 19988223,
+  "status": "passed"
 });
 });
