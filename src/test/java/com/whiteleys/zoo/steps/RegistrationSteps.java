@@ -15,18 +15,6 @@ import java.util.concurrent.TimeUnit;
 public class RegistrationSteps {
     private static org.openqa.selenium.WebDriver driver = null;
 
-    //public static void main(String[] args) {
-    // Create a new instance of the Firefox driver
-
-    //  driver = new FirefoxDriver();
-    //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    //driver.get("http://localhost:8080/whiteley-zoo/login.html");
-
-
-    //driver.quit();
-
-    //}
-    // You can implement missing steps with the snippets below:
 
     @Given("^User has entered valid data for all fields$")
     public void user_has_entered_valid_data_for_all_fields() throws Throwable {
