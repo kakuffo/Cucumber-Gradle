@@ -137,7 +137,7 @@ public class RegistrationSteps {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("http://localhost:8080/whiteley-zoo/register.html");
+        driver.get("localhost:8080/whiteley-zoo/register.html");
     }
 
     @When("^User clicks Register$")
@@ -151,8 +151,8 @@ public class RegistrationSteps {
     public void user_is_not_taken_to_New_User_view_page() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         // throw new PendingException();
-        Assert.assertTrue(driver.getCurrentUrl() == "http://localhost:8080/whiteley-zoo/register.html");
-        Assert.assertTrue(Register.registerVisible(driver));
+        //Assert.assertTrue(driver.getCurrentUrl() == "http://localhost:8080/whiteley-zoo/register.html");
+        Assert.assertTrue(Register.getRegisterVisible(driver));
     }
 
     @Then("^User is shown error messages for requred fields$")

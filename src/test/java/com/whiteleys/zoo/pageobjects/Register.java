@@ -67,10 +67,10 @@ public class Register {
 
     }
 
-    public static boolean registerVisible(WebDriver driver) {
+    public static boolean getRegisterVisible(WebDriver driver) {
 
-        boolean registerIsVisible = registerButtone(driver).isDisplayed();
-        return registerIsVisible;
+        boolean myregisterIsVisible = registerButtone(driver).isEnabled();
+        return myregisterIsVisible;
 
     }
     public static WebElement backtologin(WebDriver driver) {
