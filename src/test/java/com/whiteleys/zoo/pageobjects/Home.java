@@ -17,17 +17,17 @@ public class Home {
         return element;
     }
 
-    public static WebElement pswField(WebElement driver) {
+    public static WebElement pswField(WebDriver driver) {
         element = driver.findElement(By.id("password"));
         return element;
     }
 
-    public static WebElement submittButton(WebElement driver) {
+    public static WebElement submittButton(WebDriver driver) {
         element = driver.findElement(By.className("button"));
         return element;
     }
 
-    public static WebElement notRegistered(WebElement driver) {
+    public static WebElement notRegistered(WebDriver driver) {
         element = driver.findElement(By.linkText("Not registered?"));
         return element;
     }
