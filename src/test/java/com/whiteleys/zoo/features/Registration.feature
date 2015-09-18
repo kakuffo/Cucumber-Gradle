@@ -11,4 +11,11 @@ Feature: User registration and login validation.
     When User press the Registration button
     Then User is should validation error for all fields.
 
-  Scenario:
+  Scenario: User is shown all the fields on the registration view/page
+    Given User is on the register view/page
+    Then User is shown the mandatory Username field
+    Then User is shown the mandatory Password field
+    Then User is shown the mandatory Retype password field
+    Then User is shown the mandatory Sex select button
+    Then User is shown the mandatory Date of birth dropdown list
+    Then User is shown the mandatory Postcode field

@@ -68,11 +68,53 @@ public class Register {
     }
 
     public static boolean getLogin(WebDriver driver) {
-
         boolean loginDisplayed = backtologin(driver).isDisplayed();
-
         return loginDisplayed;
-
     }
 
+    public static boolean getregisterButtone(WebDriver driver) {
+        boolean registerButtoneDisplayed = registerButtone(driver).isDisplayed();
+        return registerButtoneDisplayed;
+    }
+
+    public static boolean getpostCode(WebDriver driver) {
+        boolean postCodeDisplayed = postCode(driver).isDisplayed();
+        return postCodeDisplayed;
+    }
+
+    public static boolean getdobYear(WebDriver driver) {
+        boolean dobYearDisplayed = dobYear(driver).isDisplayed();
+        return dobYearDisplayed;
+    }
+
+    public static boolean getdobMonth(WebDriver driver) {
+        boolean dobMonthDisplayed = dobMonth(driver).isDisplayed();
+        return dobMonthDisplayed;
+    }
+
+    public static boolean getdobDay(WebDriver driver) {
+        boolean dobDayDisplayed = dobDay(driver).isDisplayed();
+        return dobDayDisplayed;
+    }
+
+    public static boolean getmaleButton(WebDriver driver) {
+        boolean maleButtonDisplayed = maleButton(driver).isDisplayed();
+        return maleButtonDisplayed;
+    }
+
+    public static boolean getfemaleButton(WebDriver driver) {
+        boolean femaleButtonDisplayed = femaleButton(driver).isDisplayed();
+        return femaleButtonDisplayed;
+    }
+
+
+    public static boolean getpswField(WebDriver driver) {
+        boolean pswFieldDisplayed = pswField(driver).isDisplayed();
+        return pswFieldDisplayed;
+    }
+
+    public static boolean getuserNameField(WebDriver driver) {
+        boolean userNameFieldDisplayed = userNameField(driver).isDisplayed();
+        return userNameFieldDisplayed;
+    }
 }
