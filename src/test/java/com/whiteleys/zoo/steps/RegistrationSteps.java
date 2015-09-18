@@ -2,7 +2,6 @@ package com.whiteleys.zoo.steps;
 
 import com.whiteleys.zoo.pageobjects.Home;
 import com.whiteleys.zoo.pageobjects.Register;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -137,24 +136,29 @@ public class RegistrationSteps {
     public void user_has_not_entered_any_data_into_any_field() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get("http://localhost:8080/whiteley-zoo/register.html");
     }
 
     @When("^User clicks Register$")
     public void user_clicks_Register() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        //throw new PendingException();
+        Register.clicRegister(driver);
     }
 
     @Then("^User is not taken to New User view/page$")
     public void user_is_not_taken_to_New_User_view_page() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         // throw new PendingException();
+        Assert.assertTrue(driver.getCurrentUrl() == "http://localhost:8080/whiteley-zoo/register.html");
     }
 
     @Then("^User is shown error messages for requred fields$")
     public void user_is_shown_error_messages_for_requred_fields() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         //  throw new PendingException();
+
     }
 
 
