@@ -2,6 +2,8 @@ package com.whiteleys.zoo.steps;
 
 import com.whiteleys.zoo.pageobjects.Home;
 import com.whiteleys.zoo.pageobjects.Register;
+import cucumber.api.DataTable;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -162,5 +164,32 @@ public class RegistrationSteps {
 
     }
 
+    //You can implement missing steps with the snippets below:
 
+    @Given("^the following todos exist:$")
+    public void the_following_todos_exist(DataTable arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        // For automatic transformation, change DataTable to one of
+        // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+        // E,K,V must be a scalar (String, Integer, Date, enum etc)
+        throw new PendingException();
+    }
+
+    @Given("^I have signed in as \"([^\"]*)\"$")
+    public void i_have_signed_in_as(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @When("^I complete the todo \"([^\"]*)\"$")
+    public void i_complete_the_todo(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^I should have no incomplete todos$")
+    public void i_should_have_no_incomplete_todos() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
 }

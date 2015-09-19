@@ -40,22 +40,22 @@ formatter.match({
   "location": "RegistrationSteps.user_has_entered_valid_data_for_all_fields()"
 });
 formatter.result({
-  "duration": 3411035704,
+  "duration": 7894696350,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_press_the_Register_button()"
 });
 formatter.result({
-  "duration": 122919570,
+  "duration": 186609135,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_forwarded_to_home_html_view_page()"
 });
 formatter.result({
-  "duration": 9268237,
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_is_forwarded_to_home_html_view_page(RegistrationSteps.java:41)\n\tat ✽.Then User is forwarded to home.html view/page(Registration.feature:7)\n",
+  "duration": 13929118,
+  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_is_forwarded_to_home_html_view_page(RegistrationSteps.java:43)\n\tat ✽.Then User is forwarded to home.html view/page(Registration.feature:7)\n",
   "status": "failed"
 });
 formatter.background({
@@ -92,21 +92,21 @@ formatter.match({
   "location": "RegistrationSteps.user_has_left_all_the_fields_empty()"
 });
 formatter.result({
-  "duration": 179831558,
+  "duration": 254601975,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_press_the_Registration_button()"
 });
 formatter.result({
-  "duration": 9168909,
+  "duration": 9548846,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_should_validation_error_for_all_fields()"
 });
 formatter.result({
-  "duration": 26493,
+  "duration": 32901,
   "status": "passed"
 });
 formatter.background({
@@ -163,49 +163,49 @@ formatter.match({
   "location": "RegistrationSteps.user_is_on_the_register_view_page()"
 });
 formatter.result({
-  "duration": 64878750,
+  "duration": 94938582,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Username_field()"
 });
 formatter.result({
-  "duration": 18549148,
+  "duration": 21781736,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Password_field()"
 });
 formatter.result({
-  "duration": 19571724,
+  "duration": 19580970,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Retype_password_field()"
 });
 formatter.result({
-  "duration": 23807,
+  "duration": 29231,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Sex_select_button()"
 });
 formatter.result({
-  "duration": 33440313,
+  "duration": 42267350,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Date_of_birth_dropdown_list()"
 });
 formatter.result({
-  "duration": 46893695,
+  "duration": 59551069,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_shown_the_mandatory_Postcode_field()"
 });
 formatter.result({
-  "duration": 15330012,
+  "duration": 21127967,
   "status": "passed"
 });
 formatter.background({
@@ -247,22 +247,22 @@ formatter.match({
   "location": "RegistrationSteps.user_has_not_entered_any_data_into_any_field()"
 });
 formatter.result({
-  "duration": 53418577,
+  "duration": 76140559,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_clicks_Register()"
 });
 formatter.result({
-  "duration": 126605176,
+  "duration": 143992226,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationSteps.user_is_not_taken_to_New_User_view_page()"
 });
 formatter.result({
-  "duration": 9677409023,
-  "error_message": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: \u00272.47.1\u0027, revision: \u0027unknown\u0027, time: \u00272015-07-30 11:02:44\u0027\nSystem info: host: \u0027Kwames-MBP.default\u0027, ip: \u0027192.168.1.213\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.10.5\u0027, java.version: \u00271.8.0_45\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:429)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:388)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\n\tat com.whiteleys.zoo.pageobjects.Register.registerButtone(Register.java:60)\n\tat com.whiteleys.zoo.pageobjects.Register.getRegisterVisible(Register.java:72)\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_is_not_taken_to_New_User_view_page(RegistrationSteps.java:155)\n\tat ✽.Then User is not taken to New User view/page(Registration.feature:27)\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7057 [/127.0.0.1] failed: Connection refused\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)\n\tat org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:393)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:429)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:388)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\n\tat com.whiteleys.zoo.pageobjects.Register.registerButtone(Register.java:60)\n\tat com.whiteleys.zoo.pageobjects.Register.getRegisterVisible(Register.java:72)\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_is_not_taken_to_New_User_view_page(RegistrationSteps.java:155)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:299)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\n\tat org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)\n\tat org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)\n\tat org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:69)\n\tat org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\n\tat org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\n\tat org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)\n\tat org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)\n\tat com.sun.proxy.$Proxy2.processTestClass(Unknown Source)\n\tat org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:103)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\n\tat org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\n\tat org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:355)\n\tat org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.net.ConnectException: Connection refused\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)\n\t... 79 more\n",
+  "duration": 10047886002,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"class name\",\"selector\":\"button\"}\nCommand duration or timeout: 10.04 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.47.1\u0027, revision: \u0027unknown\u0027, time: \u00272015-07-30 11:02:44\u0027\nSystem info: host: \u0027Kwames-MBP.default\u0027, ip: \u0027192.168.1.213\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.10.5\u0027, java.version: \u00271.8.0_45\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d32.0, platform\u003dMAC, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: b37c61eb-2cb4-524d-8e76-58e3946ace4c\n*** Element info: {Using\u003dclass name, value\u003dbutton}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:429)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:388)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\n\tat com.whiteleys.zoo.pageobjects.Register.registerButtone(Register.java:60)\n\tat com.whiteleys.zoo.pageobjects.Register.getRegisterVisible(Register.java:72)\n\tat com.whiteleys.zoo.steps.RegistrationSteps.user_is_not_taken_to_New_User_view_page(RegistrationSteps.java:157)\n\tat ✽.Then User is not taken to New User view/page(Registration.feature:27)\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"class name\",\"selector\":\"button\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.47.1\u0027, revision: \u0027unknown\u0027, time: \u00272015-07-30 11:02:44\u0027\nSystem info: host: \u0027Kwames-MBP.default\u0027, ip: \u0027192.168.1.213\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.10.5\u0027, java.version: \u00271.8.0_45\u0027\nDriver info: driver.version: unknown\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/t_/qnn07zf149dc3gqt2qn75ztm0000gn/T/anonymous2335427116722340568webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///var/folders/t_/qnn07zf149dc3gqt2qn75ztm0000gn/T/anonymous2335427116722340568webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)\n",
   "status": "failed"
 });
 formatter.match({

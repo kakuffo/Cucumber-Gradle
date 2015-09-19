@@ -26,4 +26,3 @@ Feature: User registration and login validation.
     When User clicks Register
     Then User is not taken to New User view/page
     Then User is shown error messages for requred fields
-
